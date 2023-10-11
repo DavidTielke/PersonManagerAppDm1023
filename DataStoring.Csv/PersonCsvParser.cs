@@ -2,7 +2,7 @@
 
 namespace DavidTielke.PersonManagerApp.Data.DataStoring.Csv;
 
-public class PersonCsvParser
+public class PersonCsvParser : IPersonParser
 {
     public IEnumerable<Person> Parser(string[] data)
     {

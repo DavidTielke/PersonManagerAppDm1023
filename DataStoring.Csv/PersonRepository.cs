@@ -2,15 +2,15 @@
 
 namespace DavidTielke.PersonManagerApp.Data.DataStoring.Csv;
 
-public class PersonRepository
+public class PersonRepository : IPersonRepository
 {
-    private readonly FileLoader _loader;
-    private readonly PersonCsvParser _parser;
+    private readonly IFileLoader _loader;
+    private readonly IPersonParser _parser;
 
-    public PersonRepository()
+    public PersonRepository(IFileLoader loader, IPersonParser parser)
     {
-        _parser = new PersonCsvParser();
-        _loader = new FileLoader();
+        _loader = loader;
+        _parser = parser;
     }
 
     public IQueryable<Person> Query()
