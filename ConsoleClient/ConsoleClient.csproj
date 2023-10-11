@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ConfigurationManagement\ConfigurationManagement.csproj" />
     <ProjectReference Include="..\DataClasses\DataClasses.csproj" />
     <ProjectReference Include="..\Mappings\Mappings.csproj" />
     <ProjectReference Include="..\PersonManagement\PersonManagement.csproj" />

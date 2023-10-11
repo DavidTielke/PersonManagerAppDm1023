@@ -1,4 +1,5 @@
-﻿using DavidTielke.PersonManagerApp.Data.DataStoring.Csv;
+﻿using ConfigurationManagement;
+using DavidTielke.PersonManagerApp.Data.DataStoring.Csv;
 using DavidTielke.PersonManagerApp.Logic.PersonManagement;
 using Ninject;
 
@@ -14,6 +15,7 @@ public class KernelFactory
         kernel.Bind<IPersonRepository>().To<PersonRepository>();
         kernel.Bind<IPersonParser>().To<PersonCsvParser>();
         kernel.Bind<IFileLoader>().To<FileLoader>();
+        kernel.Bind<IConfigurator>().To<Configurator>().InSingletonScope();
 
         return kernel;
     }

@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleClient", "ConsoleCli
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{069D3201-A232-4F44-80EF-DD4A09BF6FE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mappings", "Mappings\Mappings.csproj", "{AACE4B83-18BB-4D09-941F-0AAE3CBFC9F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mappings", "Mappings\Mappings.csproj", "{AACE4B83-18BB-4D09-941F-0AAE3CBFC9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationManagement", "ConfigurationManagement\ConfigurationManagement.csproj", "{9D249D62-A8D3-46E0-9C57-8DB39AAF7E47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{AACE4B83-18BB-4D09-941F-0AAE3CBFC9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AACE4B83-18BB-4D09-941F-0AAE3CBFC9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AACE4B83-18BB-4D09-941F-0AAE3CBFC9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D249D62-A8D3-46E0-9C57-8DB39AAF7E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D249D62-A8D3-46E0-9C57-8DB39AAF7E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D249D62-A8D3-46E0-9C57-8DB39AAF7E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D249D62-A8D3-46E0-9C57-8DB39AAF7E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{37B1FA1D-C244-4638-97C0-2C403C495045} = {C568F0E8-720E-487C-B638-903FF636D321}
 		{C25AC1B8-6760-45BD-A3B6-C143B6FA6655} = {35FD26D7-5D0C-4F61-96CF-D1035D83D6C8}
 		{AACE4B83-18BB-4D09-941F-0AAE3CBFC9F4} = {069D3201-A232-4F44-80EF-DD4A09BF6FE3}
+		{9D249D62-A8D3-46E0-9C57-8DB39AAF7E47} = {F2530429-2F02-48C8-BAA3-3BBD3850A53D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {41257C5E-C759-45EC-81B7-6139FD357962}
